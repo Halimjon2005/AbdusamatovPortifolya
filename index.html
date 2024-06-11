@@ -1,0 +1,592 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio Website</title>
+    <link rel="stylesheet" href="style/main.css" />
+    <link rel="stylesheet" href="style/skills/color-1.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style/style-switcher.css" />
+    <link
+      rel="stylesheet"
+      href="style/skills/color-1.css"
+      class="alternate-style"
+      title="color-1"
+      disabled
+    />
+    <link
+      rel="stylesheet"
+      href="style/skills/color-2.css"
+      class="alternate-style"
+      title="color-2"
+      disabled
+    />
+    <link
+      rel="stylesheet"
+      href="style/skills/color-3.css"
+      class="alternate-style"
+      title="color-3"
+      disabled
+    />
+    <link
+      rel="stylesheet"
+      href="style/skills/color-4.css"
+      class="alternate-style"
+      title="color-4"
+      disabled
+    />
+    <link
+      rel="stylesheet"
+      href="style/skills/color-5.css"
+      class="alternate-style"
+      title="color-5"
+      disabled
+    />
+  </head>
+  <body class="dark">
+    <div class="main-container">
+      <div class="aside">
+        <div class="logo">
+          <a href="#"><span>H</span>alimjon</a>
+        </div>
+        <div class="nav-toggler">
+          <span></span>
+        </div>
+        <ul class="nav">
+          <li>
+            <a href="#home" class="active"><i class="fa fa-home"></i>Home</a>
+          </li>
+          <li>
+            <a href="#about"><i class="fa fa-user"></i>About</a>
+          </li>
+          <li>
+            <a href="#services"><i class="fa fa-list"></i>Services</a>
+          </li>
+          <li>
+            <a href="#portfolio"><i class="fa fa-briefcase"></i>Portfolio</a>
+          </li>
+          <li>
+            <a href="#contact"><i class="fa fa-comments"></i>Contact</a>
+          </li>
+        </ul>
+      </div>
+      <div class="main-content">
+        <section class="home active section" id="home">
+          <div class="container">
+            <div class="row">
+              <div class="home-info padd-15">
+                <h3 class="hello">
+                  Hello, my name is
+                  <span class="name">Abdusamatov Halimjon</span>
+                </h3>
+                <h3 class="my-profession">
+                  I'm a <span class="typing">Web Developer</span>
+                </h3>
+                <p>
+                  Hello, my name is Abdusamatov Halimjon . I am 19 years old. I
+                  was born in Qo'qon ❤ region. My profession is
+                  programming, which means that my job is to create websites.
+                </p>
+                <button href="#" class="btn" onclick="downland()">
+                  Download CV <i class="fa fa-download"></i>
+                </button>
+              </div>
+              <div class="home-img padd-15">
+                <img src="./images/work/1.jpg" alt="" />
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="about section" id="about">
+          <div class="container">
+            <div class="row">
+              <div class="section-title padd-15">
+                <h2>About Me</h2>
+              </div>
+            </div>
+            <div class="row">
+              <div class="about-content padd-15">
+                <div class="row">
+                  <div class="about-text padd-15">
+                    <h3>
+                      I'm Abdusamatov Halimjon and <span>Web Developer</span>
+                    </h3>
+                    <p>
+                      I am Abdusamatov Halimjon, I was born on Aptrel 23, 2005
+                      in the Qudash neighborhood of the Haliljon district
+                      of the Farg'ona region. I I am currently studying at
+                       IT ACADEMY. It is my biggest dream to become a
+                      programmer. I intend to be among the strongest programmers
+                      in the world in the future and I will try my best to
+                      achieve my intention.
+                    </p>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="personal-info padd-15">
+                    <div class="row">
+                      <div class="info-item padd-15">
+                        <p>Birthday : <span>23.04.2005</span></p>
+                      </div>
+                      <div class="info-item padd-15">
+                        <p>Age: <span>19</span></p>
+                      </div>
+                      <div class="info-item padd-15">
+                        <p>Website: <span>www...app</span></p>
+                      </div>
+                      <div class="info-item padd-15">
+                        <p>Email : <span>abdusamatovh90@gmail.com</span></p>
+                      </div>
+                      <div class="info-item padd-15">
+                        <p>Degree: <span>CS</span></p>
+                      </div>
+                      <div class="info-item padd-15">
+                        <p>Phone: <span>+998 33 561 80 80</span></p>
+                      </div>
+                      <div class="info-item padd-15">
+                        <p>City: <span>Farg'ona</span></p>
+                      </div>
+                      <div class="info-item padd-15">
+                        <p>Freelnace: <span>Available</span></p>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="buttons padd-15">
+                        <a
+                          href="#contact"
+                          class="btn hire-me"
+                          data-section-index="1"
+                          >Hire Me</a
+                        >
+                      </div>
+                    </div>
+                  </div>
+                  <div class="skills padd-15">
+                    <div class="row">
+                      <div class="skill-item padd-15">
+                        <h5>JS</h5>
+                        <div class="progress">
+                          <div class="progreesin-in" style="width: 45%"></div>
+                          <div class="skill-percent">45%</div>
+                        </div>
+                      </div>
+                      <div class="skill-item padd-15">
+                        <h5>HTML</h5>
+                        <div class="progress">
+                          <div class="progreesin-in" style="width: 90%"></div>
+                          <div class="skill-percent">90%</div>
+                        </div>
+                      </div>
+                      <div class="skill-item padd-15">
+                        <h5>CSS</h5>
+                        <div class="progress">
+                          <div class="progreesin-in" style="width: 80%"></div>
+                          <div class="skill-percent">80%</div>
+                        </div>
+                      </div>
+                      <div class="skill-item padd-15">
+                        <h5>Bootstrap</h5>
+                        <div class="progress">
+                          <div class="progreesin-in" style="width: 75%"></div>
+                          <div class="skill-percent">75%</div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="education padd-15">
+                    <h3 class="title">Education</h3>
+                    <div class="row">
+                      <div class="timeline-box padd-15">
+                        <div class="timeline shadow-dark">
+                          <div class="timeline-item">
+                            <div class="circle-dot"></div>
+                            <h3 class="timeline-date">
+                              <i class="fa fa-calendar"></i>2012-2022
+                            </h3>
+                            <h4 class="timeline-title">
+                              Master in Computer Science
+                            </h4>
+                            <p class="timeline-text">
+                              Masters in Computer Science degrees are typically
+                              offered as a Master of Science (MSc) and are one
+                              or two years long, depending on the country of
+                              study. You will study a range of modules some
+                              optional.
+                            </p>
+                          </div>
+                          <div class="timeline-item">
+                            <div class="circle-dot"></div>
+                            <h3 class="timeline-date">
+                              <i class="fa fa-calendar"></i>2012-2022
+                            </h3>
+                            <h4 class="timeline-title">
+                              Master in Computer Science
+                            </h4>
+                            <p class="timeline-text">
+                              Some compulsory - you can find out more about the
+                              most common optional modules in the next tab.
+                              Compulsory modules include programming, data
+                              analytics, software development, applied
+                              communications, network architecture and database
+                              design.
+                            </p>
+                          </div>
+                          <div class="timeline-item">
+                            <div class="circle-dot"></div>
+                            <h3 class="timeline-date">
+                              <i class="fa fa-calendar"></i>2012-2022
+                            </h3>
+                            <h4 class="timeline-title">
+                              Master in Computer Science
+                            </h4>
+                            <p class="timeline-text">
+                              Course assessment is likely to be a mixture of
+                              written essay papers and practical work. You'll
+                              continue to develop your knowledge, leading to a
+                              research project or dissertation, perhaps in a
+                              specialized subject of your choice. If you produce
+                              your own project
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="experience padd-15">
+                    <h3 class="title">Experience</h3>
+                    <div class="row">
+                      <div class="timeline-box padd-15">
+                        <div class="timeline shadow-dark">
+                          <div class="timeline-item">
+                            <div class="circle-dot"></div>
+                            <h3 class="timeline-date">
+                              <i class="fa fa-calendar"></i>2012-2022
+                            </h3>
+                            <h4 class="timeline-title">
+                              Master in Computer Science
+                            </h4>
+                            <p class="timeline-text">
+                              Although some universities specifically request
+                              students to have a related undergraduate degree
+                              (mathematics, physics, computer science,
+                              computing, ICT, electronics or statistics), others
+                              are willing to accept graduates of any discipline.
+                              For example, the UK's University of Birmingham
+                              offers an MSc in Computer Science
+                            </p>
+                          </div>
+                          <div class="timeline-item">
+                            <div class="circle-dot"></div>
+                            <h3 class="timeline-date">
+                              <i class="fa fa-calendar"></i>2012-2022
+                            </h3>
+                            <h4 class="timeline-title">
+                              Master in Computer Science
+                            </h4>
+                            <p class="timeline-text">
+                              Computer Science for those who have studied a
+                              related subject. Previous work experience in the
+                              field is likely to be beneficial, but is not
+                              essential. Depending on the university, you may
+                              also need to provide letters of recommendation
+                            </p>
+                          </div>
+                          <div class="timeline-item">
+                            <div class="circle-dot"></div>
+                            <h3 class="timeline-date">
+                              <i class="fa fa-calendar"></i>2012-2022
+                            </h3>
+                            <h4 class="timeline-title">
+                              Master in Computer Science
+                            </h4>
+                            <p class="timeline-text">
+                              Today, developments like artificial intelligence,
+                              data science, and the internet of things are
+                              driving rapid changes in the field. Consequently,
+                              more than 100,000 U.S. students were enrolled in
+                              graduate-level computer science programs.
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="service section" id="services">
+          <div class="container">
+            <div class="row">
+              <div class="section-title padd-15">
+                <h2>Services</h2>
+              </div>
+            </div>
+            <div class="row">
+              <div class="service-item">
+                <div class="service-item-inner">
+                  <div class="icon">
+                    <i class="fa fa-mobile-alt"></i>
+                  </div>
+                  <h4>Mobile Developer</h4>
+                  <p>
+                    Mobile Developer - It helps people to easily install
+                    software on phones and create different games!
+                  </p>
+                </div>
+              </div>
+              <div class="service-item">
+                <div class="service-item-inner">
+                  <div class="icon">
+                    <i class="fa fa-laptop-code"></i>
+                  </div>
+                  <h4>Web Developer</h4>
+                  <p>
+                    Web Developer - People create all kinds of social media
+                    sites and people use them!
+                  </p>
+                </div>
+              </div>
+              <div class="service-item">
+                <div class="service-item-inner">
+                  <div class="icon">
+                    <i class="fa fa-palette"></i>
+                  </div>
+                  <h4>Graphic Design</h4>
+                  <p>
+                    Graphic Design - who work in people come up with different
+                    ideas and make them happen!
+                  </p>
+                </div>
+              </div>
+              <div class="service-item">
+                <div class="service-item-inner">
+                  <div class="icon">
+                    <i class="fa fa-code"></i>
+                  </div>
+                  <h4>UI/UX</h4>
+                  <p>
+                    UI/UX - defines how the designs will look and feel, it makes
+                    beautiful design!
+                  </p>
+                </div>
+              </div>
+              <div class="service-item">
+                <div class="service-item-inner">
+                  <div class="icon">
+                    <i class="fa fa-search"></i>
+                  </div>
+                  <h4>SMM</h4>
+                  <p>
+                    SMM - is where new posts are posted and uploaded to social
+                    networks every day!
+                  </p>
+                </div>
+              </div>
+              <div class="service-item">
+                <div class="service-item-inner">
+                  <div class="icon">
+                    <i class="fa fa-bullhorn"></i>
+                  </div>
+                  <h4>Web Designer</h4>
+                  <p>
+                    Web design is one of the most sought-after tech careers
+                    today, and it has so many benefits!
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="portfolio section" id="portfolio">
+          <div class="container">
+            <div class="row">
+              <div class="section-title padd-15">
+                <h2>Portfolio</h2>
+              </div>
+            </div>
+            <div class="row">
+              <div class="portfolio-heading padd-15">
+                <h2>My Last Projects :</h2>
+              </div>
+            </div>
+            <div class="row">
+              <div class="portfolio-item padd-15">
+                <div class="portfolio-item-inner shadow-dark">
+                  <div class="portfolio-img">
+                    <img
+                      src="images/work/todolist.png.jpg"
+                      alt=""
+                      width="410"
+                    />
+                  </div>
+                </div>
+              </div>
+              <div class="portfolio-item padd-15">
+                <div class="portfolio-item-inner shadow-dark">
+                  <div class="portfolio-img">
+                    <img src="images/work/barbershop.jpg" alt="" width="410" />
+                  </div>
+                </div>
+              </div>
+              <div class="portfolio-item padd-15">
+                <div class="portfolio-item-inner shadow-dark">
+                  <div class="portfolio-img">
+                    <img src="images/work/cofeee.jpg" alt="" width="410" />
+                  </div>
+                </div>
+              </div>
+              <div class="portfolio-item padd-15">
+                <div class="portfolio-item-inner shadow-dark">
+                  <div class="portfolio-img">
+                    <img src="images/work//coofee.jpg" alt="" width="410" />
+                  </div>
+                </div>
+              </div>
+              <div class="portfolio-item padd-15">
+                <div class="portfolio-item-inner shadow-dark">
+                  <div class="portfolio-img">
+                    <img
+                      src="images/work/monito-figmasi.png"
+                      alt=""
+                      width="410"
+                    />
+                  </div>
+                </div>
+              </div>
+              <div class="portfolio-item padd-15">
+                <div class="portfolio-item-inner shadow-dark">
+                  <div class="portfolio-img">
+                    <img src="images/work//wakanda.jpg" alt="" width="410" />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="contact section" id="contact">
+          <div class="container">
+            <div class="row">
+              <div class="section-title padd-15">
+                <h2>Contact Me</h2>
+              </div>
+            </div>
+            <h3 class="contact-title padd-15">Have You Any Questions ?</h3>
+            <h4 class="contact-sub-title padd-15">I'M AT YOUR SERVICES</h4>
+            <div class="row">
+              <div class="contact-info-item padd-15">
+                <div class="icon"><i class="fa fa-phone"></i></div>
+                <h4>Call Us On</h4>
+                <p>+998 33 561 80 80</p>
+              </div>
+              <div class="contact-info-item padd-15">
+                <div class="icon"><i class="fa fa-map-marker-alt"></i></div>
+                <h4>Office</h4>
+                <p>Farg'ona</p>
+              </div>
+              <div class="contact-info-item padd-15">
+                <div class="icon"><i class="fa fa-envelope"></i></div>
+                <h4>Email</h4>
+                <p>abdusamatovh90@gmail.com</p>
+              </div>
+              <div class="contact-info-item padd-15">
+                <div class="icon"><i class="fa fa-globe-europe"></i></div>
+                <h4>Website</h4>
+                <p>www.netlify.app</p>
+              </div>
+            </div>
+            <h3 class="contact-title padd-15">SEND ME AN EMAIL</h3>
+            <h4 class="contact-sub-title padd-15">
+              I'M VERY RESPONSIVE TO MESSAGES
+            </h4>
+            <div class="row">
+              <div class="contact-form padd-15">
+                <div class="row">
+                  <div class="form-item col-6 padd-15">
+                    <div class="form-group">
+                      <input
+                        type="text"
+                        class="form-control"
+                        placeholder="Name..."
+                        required
+                      />
+                    </div>
+                  </div>
+                  <div class="form-item col-6 padd-15">
+                    <div class="form-group">
+                      <input
+                        type="email"
+                        class="form-control"
+                        placeholder="Email..."
+                        required
+                      />
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="form-item col-12 padd-15">
+                    <div class="form-group">
+                      <input
+                        type="text"
+                        class="form-control"
+                        placeholder="Subject..."
+                        required
+                      />
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="form-item col-12 padd-15">
+                    <div class="form-group">
+                      <textarea
+                        name=""
+                        id=""
+                        class="form-control"
+                        placeholder="Messages..."
+                      ></textarea>
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="form-item col-12 padd-15">
+                    <button type="submit" class="btn">Send Message</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+    </div>
+    <div class="style-switcher">
+      <div class="style-switcher-toggler s-icon">
+        <i class="fas fa-cog sa-spin"></i>
+      </div>
+      <div class="day-night s-icon">
+        <i class="fas"></i>
+      </div>
+      <h4>Theme Colors</h4>
+      <div class="colors">
+        <span class="color-1" onclick="setActiveStyle('color-1')"></span>
+        <span class="color-2" onclick="setActiveStyle('color-2')"></span>
+        <span class="color-3" onclick="setActiveStyle('color-3')"></span>
+        <span class="color-4" onclick="setActiveStyle('color-4')"></span>
+        <span class="color-5" onclick="setActiveStyle('color-5')"></span>
+      </div>
+    </div>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="js/app.js"></script>
+    <script src="js/style-switcher.js"></script>
+  </body>
+</html>
